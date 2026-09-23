@@ -8,7 +8,7 @@ def test_root():
     response = client.get("/")
     assert response.status_code == 200
     assert response.json() == {
-        "message": "CI failure demonstration"
+        "message": "Self-Healing DevOps Platform is running!"
     }
 
 
